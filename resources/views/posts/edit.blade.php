@@ -15,7 +15,7 @@
             </div>
             <div class="from-group">
                 <label for="dscription">Description:</label>
-                <textarea class="form-control"  name="description" required>{{$post->content}}</textarea>
+                <textarea class="form-control"  name="description" required>{{$post->description}}</textarea>
             </div>
             <div class="from-group">
                 <label for="image">Image</label>
